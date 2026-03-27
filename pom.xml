@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>totlwine</groupId>
-  <artifactId>twm_dev_bpm_app</artifactId>
+  <artifactId>totlwine.twm_dev_bpm_app</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>kibo-fulfillment-workflows</name>
@@ -30,8 +30,8 @@
     <sonar.java.source>${java.version}</sonar.java.source>
     <jackson.version>2.9.7</jackson.version>
     <version.org.kie>7.26.0.Final</version.org.kie>
-    <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
     <sonar.exclusions>**/*.xml, **/*Test.*</sonar.exclusions>
+    <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <sonar.tests>${project.build.testSourceDirectory}</sonar.tests>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
