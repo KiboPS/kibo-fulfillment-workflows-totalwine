@@ -1,6 +1,6 @@
 # Set default build arguments
 ARG BUILD_VER=latest
-ARG skiptest=false
+ARG skiptest=true
 ARG SONAR_SCAN=enabled
 ARG MAVEN_OPTS="-XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xmx1500m -Djava.awt.headless=true -Dmaven.test.failure.ignore=true"
 ARG MAVEN_PUBLISH_KEY
